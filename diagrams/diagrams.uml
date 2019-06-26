@@ -118,6 +118,7 @@ za neko od njih</body>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_VQWHIJf4EemO0ZLs7G__9g" name="Prikaz rezervacija/kupovina">
     <extend xmi:type="uml:Extend" xmi:id="_cSPckJf4EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_cSQDoJf4EemO0ZLs7G__9g"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GkwN4JgjEemO0ZLs7G__9g" name="ExtensionPoint2"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_X_P9YJf4EemO0ZLs7G__9g" memberEnd="_X_SZoJf4EemO0ZLs7G__9g _X_SZoZf4EemO0ZLs7G__9g">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X_RykJf4EemO0ZLs7G__9g" source="org.eclipse.papyrus">
@@ -211,5 +212,8 @@ za neko od njih</body>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_R-M5kJf7EemO0ZLs7G__9g" name="Azuriranje glumca/reditelja">
     <extend xmi:type="uml:Extend" xmi:id="_UqPCAJf7EemO0ZLs7G__9g" extendedCase="_zIClEJf3EemO0ZLs7G__9g" extensionLocation="_UqPpEJf7EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_84ot4JgiEemO0ZLs7G__9g" name="Otkazeivanje rezervacije">
+    <extend xmi:type="uml:Extend" xmi:id="_Gkvm0JgjEemO0ZLs7G__9g" extendedCase="_VQWHIJf4EemO0ZLs7G__9g" extensionLocation="_GkwN4JgjEemO0ZLs7G__9g"/>
   </packagedElement>
 </uml:Model>
