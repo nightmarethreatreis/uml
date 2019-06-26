@@ -1,6 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tiln0GbIEemny-sirUFTxw" name="diagrams">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tiln0GbIEemny-sirUFTxw" name="diagrams">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_LbwVsJf6EemO0ZLs7G__9g">
+    <body>Izbor placanja moze biti &#xD;
+ili online ili na kasi</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_p-I58Jf6EemO0ZLs7G__9g">
+    <body>Medju informacija o predstavi&#xD;
+postoji lista narednih izvodjenja&#xD;
+gde kupac moze da klikne da kartu &#xD;
+za neko od njih</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_tqltQGbIEemny-sirUFTxw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_f9cdsJchEem2LeI2q4ysGA" name="Korisnik"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_h0GdUJchEem2LeI2q4ysGA" name="Promena korisnickog imena"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_i-1yIJchEem2LeI2q4ysGA" name="Promena lozinke"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k52GQJchEem2LeI2q4ysGA" memberEnd="_k5_3QJchEem2LeI2q4ysGA _k6FW0JchEem2LeI2q4ysGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k5-CEJchEem2LeI2q4ysGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k5-pIJchEem2LeI2q4ysGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k5_3QJchEem2LeI2q4ysGA" name="korisnik" type="_f9cdsJchEem2LeI2q4ysGA" association="_k52GQJchEem2LeI2q4ysGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k6FW0JchEem2LeI2q4ysGA" name="promena korisnickog imena" type="_h0GdUJchEem2LeI2q4ysGA" association="_k52GQJchEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lWwrwJchEem2LeI2q4ysGA" memberEnd="_lWx54JchEem2LeI2q4ysGA _lWx54ZchEem2LeI2q4ysGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lWxS0JchEem2LeI2q4ysGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWxS0ZchEem2LeI2q4ysGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lWx54JchEem2LeI2q4ysGA" name="korisnik" type="_f9cdsJchEem2LeI2q4ysGA" association="_lWwrwJchEem2LeI2q4ysGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lWx54ZchEem2LeI2q4ysGA" name="promena lozinke" type="_i-1yIJchEem2LeI2q4ysGA" association="_lWwrwJchEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ml70oJchEem2LeI2q4ysGA" name="Administrator">
+    <generalization xmi:type="uml:Generalization" xmi:id="_oNuR0JchEem2LeI2q4ysGA" general="_f9cdsJchEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wR48kJchEem2LeI2q4ysGA" name="Prikaz sala">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zEjRcJchEem2LeI2q4ysGA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xHS6kJchEem2LeI2q4ysGA" name="Dodavanje sale">
+    <extend xmi:type="uml:Extend" xmi:id="_zEgOIJchEem2LeI2q4ysGA" extendedCase="_wR48kJchEem2LeI2q4ysGA" extensionLocation="_zEjRcJchEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0cc4gJchEem2LeI2q4ysGA" memberEnd="_0ceGoZchEem2LeI2q4ysGA _0cetsJchEem2LeI2q4ysGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0cdfkJchEem2LeI2q4ysGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0ceGoJchEem2LeI2q4ysGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0ceGoZchEem2LeI2q4ysGA" name="administrator" type="_ml70oJchEem2LeI2q4ysGA" association="_0cc4gJchEem2LeI2q4ysGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0cetsJchEem2LeI2q4ysGA" name="pregled sala" type="_wR48kJchEem2LeI2q4ysGA" association="_0cc4gJchEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2759gJchEem2LeI2q4ysGA" name="Prikaz svih glumaca i rezisera">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DLRdYJciEem2LeI2q4ysGA" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Zo79QJciEem2LeI2q4ysGA" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2_f-0Jf3EemO0ZLs7G__9g" name="ExtensionPoint3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_88RkgJchEem2LeI2q4ysGA" name="Dodavanje glumca ili rezisera">
+    <extend xmi:type="uml:Extend" xmi:id="_DLQ2UJciEem2LeI2q4ysGA" extendedCase="_2759gJchEem2LeI2q4ysGA" extensionLocation="_DLRdYJciEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EDs6MJciEem2LeI2q4ysGA" memberEnd="_EDuIUJciEem2LeI2q4ysGA _EDuIUZciEem2LeI2q4ysGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EDthQJciEem2LeI2q4ysGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EDthQZciEem2LeI2q4ysGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EDuIUJciEem2LeI2q4ysGA" name="administrator" type="_ml70oJchEem2LeI2q4ysGA" association="_EDs6MJciEem2LeI2q4ysGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EDuIUZciEem2LeI2q4ysGA" name="pregled svih glumaca i rezisera" type="_2759gJchEem2LeI2q4ysGA" association="_EDs6MJciEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_a4uxMJciEem2LeI2q4ysGA" name="Prikaz predstava">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-N--wJf3EemO0ZLs7G__9g" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_RRvjkJf4EemO0ZLs7G__9g" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nj820Jf3EemO0ZLs7G__9g" name="Kupac">
+    <generalization xmi:type="uml:Generalization" xmi:id="_onNqoJf3EemO0ZLs7G__9g" general="_f9cdsJchEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p14dMJf3EemO0ZLs7G__9g" memberEnd="_p2GfoJf3EemO0ZLs7G__9g _p2HGsJf3EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p2EDYJf3EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p2EqcJf3EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p2GfoJf3EemO0ZLs7G__9g" name="pregled svih glumaca i rezisera" type="_2759gJchEem2LeI2q4ysGA" association="_p14dMJf3EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p2HGsJf3EemO0ZLs7G__9g" name="kupac" type="_nj820Jf3EemO0ZLs7G__9g" association="_p14dMJf3EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zIClEJf3EemO0ZLs7G__9g" name="Prikaz pojedinacnog glumca ili rezisera">
+    <extend xmi:type="uml:Extend" xmi:id="_2_cUcJf3EemO0ZLs7G__9g" extendedCase="_2759gJchEem2LeI2q4ysGA" extensionLocation="_2_f-0Jf3EemO0ZLs7G__9g"/>
+    <extend xmi:type="uml:Extend" xmi:id="_7Lv80Jf3EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_7LxK8Jf3EemO0ZLs7G__9g"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_6oyZsJf3EemO0ZLs7G__9g" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_5JIk0Jf3EemO0ZLs7G__9g" name="Prikaz pojedinacne predstave">
+    <extend xmi:type="uml:Extend" xmi:id="_6oxLkJf3EemO0ZLs7G__9g" extendedCase="_zIClEJf3EemO0ZLs7G__9g" extensionLocation="_6oyZsJf3EemO0ZLs7G__9g"/>
+    <extend xmi:type="uml:Extend" xmi:id="_-N-XsJf3EemO0ZLs7G__9g" extendedCase="_a4uxMJciEem2LeI2q4ysGA" extensionLocation="_-N--wJf3EemO0ZLs7G__9g"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7LxK8Jf3EemO0ZLs7G__9g" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QAhzUJf4EemO0ZLs7G__9g" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bs7JAJf4EemO0ZLs7G__9g" name="ExtensionPoint5"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cSQDoJf4EemO0ZLs7G__9g" name="ExtensionPoint6"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ATjHoJf5EemO0ZLs7G__9g" name="ExtensionPoint7"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_m1YZQJf6EemO0ZLs7G__9g" name="ExtensionPoint8"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_n51f4Zf6EemO0ZLs7G__9g" name="ExtensionPoint9"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__KbY4Jf3EemO0ZLs7G__9g" name="Prikaz svih predstava">
+    <generalization xmi:type="uml:Generalization" xmi:id="_DZPisJf4EemO0ZLs7G__9g" general="_a4uxMJciEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_B_IVIJf4EemO0ZLs7G__9g" memberEnd="_B_KKUZf4EemO0ZLs7G__9g _B_KxYJf4EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B_JjQJf4EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B_KKUJf4EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B_KKUZf4EemO0ZLs7G__9g" name="prikaz svih predstava" type="__KbY4Jf3EemO0ZLs7G__9g" association="_B_IVIJf4EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B_KxYJf4EemO0ZLs7G__9g" type="_ml70oJchEem2LeI2q4ysGA" association="_B_IVIJf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GVIsEJf4EemO0ZLs7G__9g" name="Prikaz aktivnih predstava">
+    <generalization xmi:type="uml:Generalization" xmi:id="_I2AtYJf4EemO0ZLs7G__9g" general="_a4uxMJciEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_H9ABwJf4EemO0ZLs7G__9g" memberEnd="_H9CeAJf4EemO0ZLs7G__9g _H9DFEJf4EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H9B28Jf4EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H9B28Zf4EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H9CeAJf4EemO0ZLs7G__9g" name="prikaz aktivnih predstava" type="_GVIsEJf4EemO0ZLs7G__9g" association="_H9ABwJf4EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H9DFEJf4EemO0ZLs7G__9g" name="kupac" type="_nj820Jf3EemO0ZLs7G__9g" association="_H9ABwJf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LnJYQJf4EemO0ZLs7G__9g" name="Dodavanje predstave">
+    <extend xmi:type="uml:Extend" xmi:id="_RRuVcJf4EemO0ZLs7G__9g" extendedCase="_a4uxMJciEem2LeI2q4ysGA" extensionLocation="_RRvjkJf4EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_4RSr8Jf5EemO0ZLs7G__9g" addition="_1Nm4gJf5EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VQWHIJf4EemO0ZLs7G__9g" name="Prikaz rezervacija/kupovina">
+    <extend xmi:type="uml:Extend" xmi:id="_cSPckJf4EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_cSQDoJf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X_P9YJf4EemO0ZLs7G__9g" memberEnd="_X_SZoJf4EemO0ZLs7G__9g _X_SZoZf4EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X_RykJf4EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X_RykZf4EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X_SZoJf4EemO0ZLs7G__9g" name="prikaz rezervacija/kupovina" type="_VQWHIJf4EemO0ZLs7G__9g" association="_X_P9YJf4EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X_SZoZf4EemO0ZLs7G__9g" name="kupac" type="_nj820Jf3EemO0ZLs7G__9g" association="_X_P9YJf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aFvIwJf4EemO0ZLs7G__9g" name="Ostavljanje ocene">
+    <extend xmi:type="uml:Extend" xmi:id="_bs564Jf4EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_bs7JAJf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hGVdsJf4EemO0ZLs7G__9g" name="Prikaz radnika na kasi">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_nUXGMJf4EemO0ZLs7G__9g" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_l7hrAJf4EemO0ZLs7G__9g" name="Dodavanje radnika na kasi">
+    <extend xmi:type="uml:Extend" xmi:id="_nUWfIJf4EemO0ZLs7G__9g" extendedCase="_hGVdsJf4EemO0ZLs7G__9g" extensionLocation="_nUXGMJf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oV-UMJf4EemO0ZLs7G__9g" memberEnd="_oWAJYJf4EemO0ZLs7G__9g _oWAJYZf4EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oV_iUJf4EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oV_iUZf4EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oWAJYJf4EemO0ZLs7G__9g" name="prikaz radnika na kasi" type="_hGVdsJf4EemO0ZLs7G__9g" association="_oV-UMJf4EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oWAJYZf4EemO0ZLs7G__9g" name="administrator" type="_ml70oJchEem2LeI2q4ysGA" association="_oV-UMJf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_u7nLcJf4EemO0ZLs7G__9g" name="Radnik na kasi">
+    <generalization xmi:type="uml:Generalization" xmi:id="_xnlCcJf4EemO0ZLs7G__9g" general="_f9cdsJchEem2LeI2q4ysGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_z38ikJf4EemO0ZLs7G__9g" name="Izbor izvodjenja"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2mqLkJf4EemO0ZLs7G__9g" name="Prodaja karata">
+    <include xmi:type="uml:Include" xmi:id="_41SmUJf4EemO0ZLs7G__9g" addition="_z38ikJf4EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_ummvUJf5EemO0ZLs7G__9g" addition="_tHiwUJf5EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_BF4uEJf6EemO0ZLs7G__9g" addition="_-yXMQJf5EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4XU38Jf4EemO0ZLs7G__9g" memberEnd="_4XXUMJf4EemO0ZLs7G__9g _4XXUMZf4EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4XWGEJf4EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4XWtIJf4EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4XXUMJf4EemO0ZLs7G__9g" name="radnik na kasi" type="_u7nLcJf4EemO0ZLs7G__9g" association="_4XU38Jf4EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4XXUMZf4EemO0ZLs7G__9g" name="prodaja karata" type="_2mqLkJf4EemO0ZLs7G__9g" association="_4XU38Jf4EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-KCdcJf4EemO0ZLs7G__9g" name="Dodavanje izvodjenja">
+    <extend xmi:type="uml:Extend" xmi:id="_ATigkJf5EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_ATjHoJf5EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_R2FxUJf5EemO0ZLs7G__9g" addition="_LM5PwJf5EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_UgN1QJf5EemO0ZLs7G__9g" addition="_S3vbkJf5EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_dwrUAJf5EemO0ZLs7G__9g" addition="_cP1MUJf5EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GrObYJf5EemO0ZLs7G__9g" memberEnd="_GrQQkZf5EemO0ZLs7G__9g _GrQQkpf5EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GrPpgJf5EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GrQQkJf5EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GrQQkZf5EemO0ZLs7G__9g" name="administrator" type="_ml70oJchEem2LeI2q4ysGA" association="_GrObYJf5EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GrQQkpf5EemO0ZLs7G__9g" name="dodavanje izvodjenja" type="_-KCdcJf4EemO0ZLs7G__9g" association="_GrObYJf5EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LM5PwJf5EemO0ZLs7G__9g" name="Izbor sale"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_S3vbkJf5EemO0ZLs7G__9g" name="Izbor termina"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cP1MUJf5EemO0ZLs7G__9g" name="Izbor predstave"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hhyOIJf5EemO0ZLs7G__9g" name="Izdavanje rezervisane karte">
+    <include xmi:type="uml:Include" xmi:id="_lqxcwJf5EemO0ZLs7G__9g" addition="_jp2G0Jf5EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_vrIucJf5EemO0ZLs7G__9g" addition="_tHiwUJf5EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jSsLEJf5EemO0ZLs7G__9g" memberEnd="_jSuAQJf5EemO0ZLs7G__9g _jSuAQZf5EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jSsyIJf5EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jStZMJf5EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jSuAQJf5EemO0ZLs7G__9g" name="izdavanje rezervisane karte" type="_hhyOIJf5EemO0ZLs7G__9g" association="_jSsLEJf5EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jSuAQZf5EemO0ZLs7G__9g" name="radnik na kasi" type="_u7nLcJf4EemO0ZLs7G__9g" association="_jSsLEJf5EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jp2G0Jf5EemO0ZLs7G__9g" name="Unos koda rezervacije"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tHiwUJf5EemO0ZLs7G__9g" name="Stampanje karata"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1Nm4gJf5EemO0ZLs7G__9g" name="Izbor glumaca/rezisera"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-yXMQJf5EemO0ZLs7G__9g" name="Izbor mesta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CGkvAJf6EemO0ZLs7G__9g" name="Rezervacija karata">
+    <extend xmi:type="uml:Extend" xmi:id="_m1XLIJf6EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_m1YZQJf6EemO0ZLs7G__9g"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_lkojEJf6EemO0ZLs7G__9g" name="ExtensionPoint5"/>
+    <include xmi:type="uml:Include" xmi:id="_EII-IJf6EemO0ZLs7G__9g" addition="_-yXMQJf5EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_EthjIJf6EemO0ZLs7G__9g" addition="_z38ikJf4EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_KuLeAJf6EemO0ZLs7G__9g" addition="_JEC3cJf6EemO0ZLs7G__9g"/>
+    <include xmi:type="uml:Include" xmi:id="_YjBG4Jf6EemO0ZLs7G__9g" addition="_Varc8Jf6EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Gs2WkJf6EemO0ZLs7G__9g" memberEnd="_Gs4y0Jf6EemO0ZLs7G__9g _Gs5Z4Jf6EemO0ZLs7G__9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gs4LwJf6EemO0ZLs7G__9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gs4LwZf6EemO0ZLs7G__9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gs4y0Jf6EemO0ZLs7G__9g" name="rezervacija karata" type="_CGkvAJf6EemO0ZLs7G__9g" association="_Gs2WkJf6EemO0ZLs7G__9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gs5Z4Jf6EemO0ZLs7G__9g" name="kupac" type="_nj820Jf3EemO0ZLs7G__9g" association="_Gs2WkJf6EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JEC3cJf6EemO0ZLs7G__9g" name="Izbor placanja"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Varc8Jf6EemO0ZLs7G__9g" name="Stampanje potvrde rezervacije"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hTNKIJf6EemO0ZLs7G__9g" name="Azuriranje predstave">
+    <extend xmi:type="uml:Extend" xmi:id="_n51f4Jf6EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_n51f4Zf6EemO0ZLs7G__9g"/>
+  </packagedElement>
 </uml:Model>
