@@ -79,6 +79,7 @@ za neko od njih</body>
     <extend xmi:type="uml:Extend" xmi:id="_2_cUcJf3EemO0ZLs7G__9g" extendedCase="_2759gJchEem2LeI2q4ysGA" extensionLocation="_2_f-0Jf3EemO0ZLs7G__9g"/>
     <extend xmi:type="uml:Extend" xmi:id="_7Lv80Jf3EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_7LxK8Jf3EemO0ZLs7G__9g"/>
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_6oyZsJf3EemO0ZLs7G__9g" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UqPpEJf7EemO0ZLs7G__9g" name="ExtensionPoint4"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_5JIk0Jf3EemO0ZLs7G__9g" name="Prikaz pojedinacne predstave">
     <extend xmi:type="uml:Extend" xmi:id="_6oxLkJf3EemO0ZLs7G__9g" extendedCase="_zIClEJf3EemO0ZLs7G__9g" extensionLocation="_6oyZsJf3EemO0ZLs7G__9g"/>
@@ -187,7 +188,7 @@ za neko od njih</body>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_jp2G0Jf5EemO0ZLs7G__9g" name="Unos koda rezervacije"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_tHiwUJf5EemO0ZLs7G__9g" name="Stampanje karata"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_1Nm4gJf5EemO0ZLs7G__9g" name="Izbor glumaca/rezisera"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_-yXMQJf5EemO0ZLs7G__9g" name="Izbor mesta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-yXMQJf5EemO0ZLs7G__9g" name="Izbor sedista"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_CGkvAJf6EemO0ZLs7G__9g" name="Rezervacija karata">
     <extend xmi:type="uml:Extend" xmi:id="_m1XLIJf6EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_m1YZQJf6EemO0ZLs7G__9g"/>
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_lkojEJf6EemO0ZLs7G__9g" name="ExtensionPoint5"/>
@@ -207,5 +208,8 @@ za neko od njih</body>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_Varc8Jf6EemO0ZLs7G__9g" name="Stampanje potvrde rezervacije"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_hTNKIJf6EemO0ZLs7G__9g" name="Azuriranje predstave">
     <extend xmi:type="uml:Extend" xmi:id="_n51f4Jf6EemO0ZLs7G__9g" extendedCase="_5JIk0Jf3EemO0ZLs7G__9g" extensionLocation="_n51f4Zf6EemO0ZLs7G__9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_R-M5kJf7EemO0ZLs7G__9g" name="Azuriranje glumca/reditelja">
+    <extend xmi:type="uml:Extend" xmi:id="_UqPCAJf7EemO0ZLs7G__9g" extendedCase="_zIClEJf3EemO0ZLs7G__9g" extensionLocation="_UqPpEJf7EemO0ZLs7G__9g"/>
   </packagedElement>
 </uml:Model>
