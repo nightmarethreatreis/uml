@@ -402,22 +402,6 @@ referentne cene karte i sedista</body>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_UQrMsJhiEemlQMYyhOIfKA" name="vremeKupovine" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_V3k5EJhiEemlQMYyhOIfKA" name="vremeRezervacije" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_aGS8QJhiEemlQMYyhOIfKA" memberEnd="_aGUKYZhiEemlQMYyhOIfKA _aGVYgJhiEemlQMYyhOIfKA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aGTjUJhiEemlQMYyhOIfKA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aGUKYJhiEemlQMYyhOIfKA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_aGUKYZhiEemlQMYyhOIfKA" name="karta" type="_TdZVoJhiEemlQMYyhOIfKA" association="_aGS8QJhiEemlQMYyhOIfKA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b9ZAwJhiEemlQMYyhOIfKA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b9d5QJhiEemlQMYyhOIfKA" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_aGVYgJhiEemlQMYyhOIfKA" name="kupac" type="_qt04YJgkEemO0ZLs7G__9g" association="_aGS8QJhiEemlQMYyhOIfKA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d8wQcJhiEemlQMYyhOIfKA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d81wAJhiEemlQMYyhOIfKA" value="1"/>
-    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_lbmnoJhiEemlQMYyhOIfKA" memberEnd="_lbn1wZhiEemlQMYyhOIfKA _lbpD4JhiEemlQMYyhOIfKA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbnOsJhiEemlQMYyhOIfKA" source="org.eclipse.papyrus">
@@ -435,6 +419,40 @@ referentne cene karte i sedista</body>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_mIfi0ZhiEemlQMYyhOIfKA" name="karta" type="_TdZVoJhiEemlQMYyhOIfKA" association="_mIdtoJhiEemlQMYyhOIfKA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_mIgJ4JhiEemlQMYyhOIfKA" name="sediste" type="_u7H9cJhfEemlQMYyhOIfKA" association="_mIdtoJhiEemlQMYyhOIfKA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNetwJjFEem7h6eMdyRh1w" name="Rezervacija">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_V3k5EJhiEemlQMYyhOIfKA" name="vremeRezervacije" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yK1xYJjFEem7h6eMdyRh1w" name="sifraRezervacije" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KLlNkJjGEem7h6eMdyRh1w" name="izdato" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_f0YXcJjFEem7h6eMdyRh1w" memberEnd="_f0fFIJjFEem7h6eMdyRh1w _f0g6UJjFEem7h6eMdyRh1w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f0dP8JjFEem7h6eMdyRh1w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f0dP8ZjFEem7h6eMdyRh1w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_f0fFIJjFEem7h6eMdyRh1w" name="rezervacija" type="_NNetwJjFEem7h6eMdyRh1w" association="_f0YXcJjFEem7h6eMdyRh1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hqPF0JjFEem7h6eMdyRh1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hqWakJjFEem7h6eMdyRh1w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_f0g6UJjFEem7h6eMdyRh1w" name="kupac" type="_qt04YJgkEemO0ZLs7G__9g" association="_f0YXcJjFEem7h6eMdyRh1w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jOqF8JjFEem7h6eMdyRh1w" memberEnd="_jOqtApjFEem7h6eMdyRh1w _jOrUEJjFEem7h6eMdyRh1w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jOqtAJjFEem7h6eMdyRh1w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jOqtAZjFEem7h6eMdyRh1w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jOqtApjFEem7h6eMdyRh1w" name="rezervacija" type="_NNetwJjFEem7h6eMdyRh1w" association="_jOqF8JjFEem7h6eMdyRh1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oUxEIJjFEem7h6eMdyRh1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oU18oJjFEem7h6eMdyRh1w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jOrUEJjFEem7h6eMdyRh1w" name="karta" type="_TdZVoJhiEemlQMYyhOIfKA" association="_jOqF8JjFEem7h6eMdyRh1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o1-TwJjFEem7h6eMdyRh1w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o2ClMJjFEem7h6eMdyRh1w" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZnE4YJhcEemlQMYyhOIfKA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZnGtkJhcEemlQMYyhOIfKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
