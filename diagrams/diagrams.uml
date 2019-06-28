@@ -468,8 +468,8 @@ referentne cene karte i sedista</body>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o2ClMJjFEem7h6eMdyRh1w" value="*"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_pVZ1IJmeEemqArbOhM8_WA" name="Rezervacija karata" node="_sHfiQJmeEemqArbOhM8_WA _zBwlsJmeEemqArbOhM8_WA _5oawoJmeEemqArbOhM8_WA _AVVUkJmfEemqArbOhM8_WA _D7I9oJmfEemqArbOhM8_WA _Nn6k8JmfEemqArbOhM8_WA _RnL24JmfEemqArbOhM8_WA _btYq0JmfEemqArbOhM8_WA _i46dYJmfEemqArbOhM8_WA _k4uZAJmfEemqArbOhM8_WA _rCyukJmfEemqArbOhM8_WA _1E6TwJmfEemqArbOhM8_WA _6_L50JmfEemqArbOhM8_WA _8jJm8JmfEemqArbOhM8_WA _D79nkJmgEemqArbOhM8_WA _OCGKEJmgEemqArbOhM8_WA _SYuMEJmgEemqArbOhM8_WA _YXZxAJmgEemqArbOhM8_WA _8oaE8JmgEemqArbOhM8_WA _DXZsgJmhEemqArbOhM8_WA _K3RXYJmhEemqArbOhM8_WA _SVFz0JmhEemqArbOhM8_WA _TW6dMJmhEemqArbOhM8_WA _V-x3UJmhEemqArbOhM8_WA _YNVZkJmhEemqArbOhM8_WA _aAFJkJmhEemqArbOhM8_WA _dFzkYJmhEemqArbOhM8_WA _jovs8JmhEemqArbOhM8_WA _mmGZcJmiEemqArbOhM8_WA">
-    <edge xmi:type="uml:ControlFlow" xmi:id="_3Pw3MJmeEemqArbOhM8_WA" target="_RnL24JmfEemqArbOhM8_WA" source="_sHfiQJmeEemqArbOhM8_WA"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_pVZ1IJmeEemqArbOhM8_WA" name="Rezervacija karata" node="_sHfiQJmeEemqArbOhM8_WA _zBwlsJmeEemqArbOhM8_WA _5oawoJmeEemqArbOhM8_WA _AVVUkJmfEemqArbOhM8_WA _D7I9oJmfEemqArbOhM8_WA _Nn6k8JmfEemqArbOhM8_WA _RnL24JmfEemqArbOhM8_WA _btYq0JmfEemqArbOhM8_WA _i46dYJmfEemqArbOhM8_WA _k4uZAJmfEemqArbOhM8_WA _rCyukJmfEemqArbOhM8_WA _1E6TwJmfEemqArbOhM8_WA _6_L50JmfEemqArbOhM8_WA _8jJm8JmfEemqArbOhM8_WA _D79nkJmgEemqArbOhM8_WA _OCGKEJmgEemqArbOhM8_WA _SYuMEJmgEemqArbOhM8_WA _YXZxAJmgEemqArbOhM8_WA _8oaE8JmgEemqArbOhM8_WA _DXZsgJmhEemqArbOhM8_WA _K3RXYJmhEemqArbOhM8_WA _SVFz0JmhEemqArbOhM8_WA _TW6dMJmhEemqArbOhM8_WA _V-x3UJmhEemqArbOhM8_WA _YNVZkJmhEemqArbOhM8_WA _aAFJkJmhEemqArbOhM8_WA _dFzkYJmhEemqArbOhM8_WA _jovs8JmhEemqArbOhM8_WA _mmGZcJmiEemqArbOhM8_WA _qVVGoJnWEemqArbOhM8_WA _60F_IJnWEemqArbOhM8_WA _SwLk0JnXEemqArbOhM8_WA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3Pw3MJmeEemqArbOhM8_WA" target="_qVVGoJnWEemqArbOhM8_WA" source="_sHfiQJmeEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_9_amEJmeEemqArbOhM8_WA" target="_5oawoJmeEemqArbOhM8_WA" source="_zBwlsJmeEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_LK8MMJmfEemqArbOhM8_WA" target="_AVVUkJmfEemqArbOhM8_WA" source="_5oawoJmeEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_LsokAJmfEemqArbOhM8_WA" target="_D7I9oJmfEemqArbOhM8_WA" source="_AVVUkJmfEemqArbOhM8_WA"/>
@@ -478,7 +478,7 @@ referentne cene karte i sedista</body>
     <edge xmi:type="uml:ControlFlow" xmi:id="_XIoGMJmfEemqArbOhM8_WA" target="_zBwlsJmeEemqArbOhM8_WA" source="_RnL24JmfEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_ewP-4JmfEemqArbOhM8_WA" name="[DA]" target="_rCyukJmfEemqArbOhM8_WA" source="_D7I9oJmfEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_vfeVQJmfEemqArbOhM8_WA" target="_btYq0JmfEemqArbOhM8_WA" source="_rCyukJmfEemqArbOhM8_WA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_wGRPgJmfEemqArbOhM8_WA" target="_i46dYJmfEemqArbOhM8_WA" source="_btYq0JmfEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wGRPgJmfEemqArbOhM8_WA" target="_SwLk0JnXEemqArbOhM8_WA" source="_btYq0JmfEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_wvRJMJmfEemqArbOhM8_WA" target="_k4uZAJmfEemqArbOhM8_WA" source="_i46dYJmfEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_5U134JmfEemqArbOhM8_WA" target="_1E6TwJmfEemqArbOhM8_WA" source="_k4uZAJmfEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_A9S3AJmgEemqArbOhM8_WA" name="[DA]" target="_6_L50JmfEemqArbOhM8_WA" source="_1E6TwJmfEemqArbOhM8_WA"/>
@@ -502,21 +502,25 @@ referentne cene karte i sedista</body>
     <edge xmi:type="uml:ControlFlow" xmi:id="_mWP1AJmhEemqArbOhM8_WA" target="_K3RXYJmhEemqArbOhM8_WA" source="_jovs8JmhEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_n81YUJmhEemqArbOhM8_WA" target="_V-x3UJmhEemqArbOhM8_WA" source="_TW6dMJmhEemqArbOhM8_WA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_t-b48JmiEemqArbOhM8_WA" target="_SYuMEJmgEemqArbOhM8_WA" source="_mmGZcJmiEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9dN9gJnWEemqArbOhM8_WA" target="_60F_IJnWEemqArbOhM8_WA" source="_qVVGoJnWEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-NGiUJnWEemqArbOhM8_WA" name="[NE]" target="_RnL24JmfEemqArbOhM8_WA" source="_60F_IJnWEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BiQgQJnXEemqArbOhM8_WA" name="[DA]" target="_SwLk0JnXEemqArbOhM8_WA" source="_60F_IJnWEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Vogc0JnXEemqArbOhM8_WA" target="_i46dYJmfEemqArbOhM8_WA" source="_SwLk0JnXEemqArbOhM8_WA"/>
     <node xmi:type="uml:InitialNode" xmi:id="_sHfiQJmeEemqArbOhM8_WA" name="" outgoing="_3Pw3MJmeEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_zBwlsJmeEemqArbOhM8_WA" name="Izbor predstave" incoming="_XIoGMJmfEemqArbOhM8_WA" outgoing="_9_amEJmeEemqArbOhM8_WA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_5oawoJmeEemqArbOhM8_WA" name="Pribavljanje narednih izvodjenja" incoming="_9_amEJmeEemqArbOhM8_WA" outgoing="_LK8MMJmfEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5oawoJmeEemqArbOhM8_WA" name="Ucitavanje narednih izvodjenja koja pocinju za vise od pola sata" incoming="_9_amEJmeEemqArbOhM8_WA" outgoing="_LK8MMJmfEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_AVVUkJmfEemqArbOhM8_WA" name="Provera postojanja izvodjenja" incoming="_LK8MMJmfEemqArbOhM8_WA" outgoing="_LsokAJmfEemqArbOhM8_WA"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_D7I9oJmfEemqArbOhM8_WA" name="Da li postoji ijedno izvodjenje?" incoming="_LsokAJmfEemqArbOhM8_WA" outgoing="_PRdVoJmfEemqArbOhM8_WA _ewP-4JmfEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Nn6k8JmfEemqArbOhM8_WA" name="Prikaz greske" incoming="_PRdVoJmfEemqArbOhM8_WA" outgoing="_VewlYJmfEemqArbOhM8_WA"/>
-    <node xmi:type="uml:MergeNode" xmi:id="_RnL24JmfEemqArbOhM8_WA" name="" incoming="_3Pw3MJmeEemqArbOhM8_WA _VewlYJmfEemqArbOhM8_WA" outgoing="_XIoGMJmfEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_RnL24JmfEemqArbOhM8_WA" name="" incoming="_VewlYJmfEemqArbOhM8_WA _-NGiUJnWEemqArbOhM8_WA" outgoing="_XIoGMJmfEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_btYq0JmfEemqArbOhM8_WA" name="Izbor izvodjenja" incoming="_vfeVQJmfEemqArbOhM8_WA" outgoing="_wGRPgJmfEemqArbOhM8_WA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_i46dYJmfEemqArbOhM8_WA" name="Pribavljanje mesta u sali" incoming="_wGRPgJmfEemqArbOhM8_WA" outgoing="_wvRJMJmfEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_i46dYJmfEemqArbOhM8_WA" name="Ucitavanje sedista u sali" incoming="_Vogc0JnXEemqArbOhM8_WA" outgoing="_wvRJMJmfEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_k4uZAJmfEemqArbOhM8_WA" name="Provera postojanja slobodnih mesta" incoming="_wvRJMJmfEemqArbOhM8_WA" outgoing="_5U134JmfEemqArbOhM8_WA"/>
     <node xmi:type="uml:MergeNode" xmi:id="_rCyukJmfEemqArbOhM8_WA" name="" incoming="_ewP-4JmfEemqArbOhM8_WA _A0N-EJmhEemqArbOhM8_WA" outgoing="_vfeVQJmfEemqArbOhM8_WA"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_1E6TwJmfEemqArbOhM8_WA" name="Da li postoje slobodna mesta u sali" incoming="_5U134JmfEemqArbOhM8_WA" outgoing="_A9S3AJmgEemqArbOhM8_WA __g4G4JmgEemqArbOhM8_WA"/>
     <node xmi:type="uml:MergeNode" xmi:id="_6_L50JmfEemqArbOhM8_WA" name="" incoming="_A9S3AJmgEemqArbOhM8_WA _eWovkJmgEemqArbOhM8_WA" outgoing="_BgWgwJmgEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_8jJm8JmfEemqArbOhM8_WA" name="Izbor mesta" incoming="_BgWgwJmgEemqArbOhM8_WA" outgoing="_KzrtUJmgEemqArbOhM8_WA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_D79nkJmgEemqArbOhM8_WA" name="Provera sa korisnikom da li zeli daizabere jos mesta" incoming="_KzrtUJmgEemqArbOhM8_WA" outgoing="_Qhgy0JmgEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_D79nkJmgEemqArbOhM8_WA" name="Provera sa korisnikom da li zeli da izabere jos mesta" incoming="_KzrtUJmgEemqArbOhM8_WA" outgoing="_Qhgy0JmgEemqArbOhM8_WA"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_OCGKEJmgEemqArbOhM8_WA" name="Sta je korisnik odlucio?" incoming="_Qhgy0JmgEemqArbOhM8_WA" outgoing="_cJj0AJmgEemqArbOhM8_WA _eWovkJmgEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_SYuMEJmgEemqArbOhM8_WA" name="Izbor placanja" incoming="_t-b48JmiEemqArbOhM8_WA" outgoing="_hZ66YJmgEemqArbOhM8_WA"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_YXZxAJmgEemqArbOhM8_WA" name="Kako korisnik zeli da plati?" incoming="_hZ66YJmgEemqArbOhM8_WA" outgoing="_ICfioJmhEemqArbOhM8_WA _OiwKoJmhEemqArbOhM8_WA"/>
@@ -531,6 +535,80 @@ referentne cene karte i sedista</body>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_dFzkYJmhEemqArbOhM8_WA" name="" incoming="_eM_O4JmhEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_jovs8JmhEemqArbOhM8_WA" name="Placanje" incoming="_OiwKoJmhEemqArbOhM8_WA" outgoing="_mWP1AJmhEemqArbOhM8_WA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_mmGZcJmiEemqArbOhM8_WA" name="Prikaz rezimea" incoming="_cJj0AJmgEemqArbOhM8_WA" outgoing="_t-b48JmiEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qVVGoJnWEemqArbOhM8_WA" name="Provera da li je izvodjenje odabrano prilikom otvaranja forme?" incoming="_3Pw3MJmeEemqArbOhM8_WA" outgoing="_9dN9gJnWEemqArbOhM8_WA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_60F_IJnWEemqArbOhM8_WA" name="Da li je izvodjenje odabrano?" incoming="_9dN9gJnWEemqArbOhM8_WA" outgoing="_-NGiUJnWEemqArbOhM8_WA _BiQgQJnXEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_SwLk0JnXEemqArbOhM8_WA" name="" incoming="_wGRPgJmfEemqArbOhM8_WA _BiQgQJnXEemqArbOhM8_WA" outgoing="_Vogc0JnXEemqArbOhM8_WA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_NHUM8JnZEemqArbOhM8_WA" name="Dodavanje predstave" node="_fRPmwJnZEemqArbOhM8_WA _f7MisJnZEemqArbOhM8_WA _hHA1kJnZEemqArbOhM8_WA _ij97wJnZEemqArbOhM8_WA _mR5mEJnZEemqArbOhM8_WA _qAFvEJnZEemqArbOhM8_WA _wBVf0JnZEemqArbOhM8_WA _0NYpgJnZEemqArbOhM8_WA _9KfucJnZEemqArbOhM8_WA _Dc_AMJnaEemqArbOhM8_WA _IpjLsJnaEemqArbOhM8_WA _KjbecJnaEemqArbOhM8_WA _QeGtIJnaEemqArbOhM8_WA _Vvw0AJnaEemqArbOhM8_WA _oSwOEJnaEemqArbOhM8_WA _rmhr8JnaEemqArbOhM8_WA _vV3rgJnaEemqArbOhM8_WA _xCryoJnaEemqArbOhM8_WA _5XwnMJnaEemqArbOhM8_WA _9xDisJnaEemqArbOhM8_WA _Fak40JnbEemqArbOhM8_WA _or4qUJnbEemqArbOhM8_WA _qf6MsJnbEemqArbOhM8_WA _tTNawJnbEemqArbOhM8_WA _uqpu0JnbEemqArbOhM8_WA _0XTvoJnbEemqArbOhM8_WA _3X-rUJnbEemqArbOhM8_WA _-SPHsJnbEemqArbOhM8_WA _IR3ZkJncEemqArbOhM8_WA">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_SZSK8JnbEemqArbOhM8_WA">
+      <body>Prilikom provere korisnikove zelje &#xD;
+se posmatra da li postoje &#xD;
+neodabrani reziseri, ako ne &#xD;
+postoje posmatra se kao da je &#xD;
+korisnik izabrao NE, isto vazi i kod&#xD;
+odabira glumaca</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nikjwJnZEemqArbOhM8_WA" target="_IpjLsJnaEemqArbOhM8_WA" source="_fRPmwJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oAaWUJnZEemqArbOhM8_WA" target="_3X-rUJnbEemqArbOhM8_WA" source="_mR5mEJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oViRwJnZEemqArbOhM8_WA" target="_hHA1kJnZEemqArbOhM8_WA" source="_f7MisJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ot35QJnZEemqArbOhM8_WA" target="_ij97wJnZEemqArbOhM8_WA" source="_hHA1kJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_14eSUJnZEemqArbOhM8_WA" target="_0NYpgJnZEemqArbOhM8_WA" source="_wBVf0JnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3bs_oJnZEemqArbOhM8_WA" target="_0NYpgJnZEemqArbOhM8_WA" source="_ij97wJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4GV4EJnZEemqArbOhM8_WA" target="_qAFvEJnZEemqArbOhM8_WA" source="_0NYpgJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OVk6YJnaEemqArbOhM8_WA" target="_KjbecJnaEemqArbOhM8_WA" source="_IpjLsJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OwbDUJnaEemqArbOhM8_WA" name="[DA]" target="_mR5mEJnZEemqArbOhM8_WA" source="_KjbecJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Sy6BUJnaEemqArbOhM8_WA" name="[NE]" target="_QeGtIJnaEemqArbOhM8_WA" source="_KjbecJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WoLCsJnaEemqArbOhM8_WA" target="_Vvw0AJnaEemqArbOhM8_WA" source="_QeGtIJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bYPfcJnaEemqArbOhM8_WA" name="[DA]" target="_wBVf0JnZEemqArbOhM8_WA" source="_Dc_AMJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_c4bf0JnaEemqArbOhM8_WA" target="_Dc_AMJnaEemqArbOhM8_WA" source="_qAFvEJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f8vlYJnaEemqArbOhM8_WA" name="[NE]" target="_9KfucJnZEemqArbOhM8_WA" source="_Dc_AMJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uQMc4JnaEemqArbOhM8_WA" target="_oSwOEJnaEemqArbOhM8_WA" source="_9KfucJnZEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ur46YJnaEemqArbOhM8_WA" target="_rmhr8JnaEemqArbOhM8_WA" source="_oSwOEJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CP4ecJnbEemqArbOhM8_WA" name="[DA]" target="_vV3rgJnaEemqArbOhM8_WA" source="_rmhr8JnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CqGVQJnbEemqArbOhM8_WA" target="_9xDisJnaEemqArbOhM8_WA" source="_vV3rgJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DbxCwJnbEemqArbOhM8_WA" target="_xCryoJnaEemqArbOhM8_WA" source="_9xDisJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xCBO0JnbEemqArbOhM8_WA" target="_mR5mEJnZEemqArbOhM8_WA" source="_uqpu0JnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_y29XMJnbEemqArbOhM8_WA" name="[NE]" target="_uqpu0JnbEemqArbOhM8_WA" source="_tTNawJnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6JfwsJnbEemqArbOhM8_WA" target="_f7MisJnZEemqArbOhM8_WA" source="_3X-rUJnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__LSPkJnbEemqArbOhM8_WA" target="_0XTvoJnbEemqArbOhM8_WA" source="_IR3ZkJncEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__1C-QJnbEemqArbOhM8_WA" name="[DA]" target="_IR3ZkJncEemqArbOhM8_WA" source="_tTNawJnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DEbEUJncEemqArbOhM8_WA" target="_tTNawJnbEemqArbOhM8_WA" source="_qf6MsJnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EoLWEJncEemqArbOhM8_WA" target="_qf6MsJnbEemqArbOhM8_WA" source="_or4qUJnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NK_rsJncEemqArbOhM8_WA" target="_-SPHsJnbEemqArbOhM8_WA" source="_0XTvoJnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PCHlYJncEemqArbOhM8_WA" target="_5XwnMJnaEemqArbOhM8_WA" source="_xCryoJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PoHOYJncEemqArbOhM8_WA" name="[DA]" target="_Fak40JnbEemqArbOhM8_WA" source="_5XwnMJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_W-vdsJncEemqArbOhM8_WA" target="_9xDisJnaEemqArbOhM8_WA" source="_Fak40JnbEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_j7Af0JncEemqArbOhM8_WA" name="[NE]" target="_9KfucJnZEemqArbOhM8_WA" source="_5XwnMJnaEemqArbOhM8_WA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oyNfUJncEemqArbOhM8_WA" name="[NE]" target="_or4qUJnbEemqArbOhM8_WA" source="_rmhr8JnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_fRPmwJnZEemqArbOhM8_WA" name="" outgoing="_nikjwJnZEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f7MisJnZEemqArbOhM8_WA" name="Unos naziva predstave" incoming="_6JfwsJnbEemqArbOhM8_WA" outgoing="_oViRwJnZEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hHA1kJnZEemqArbOhM8_WA" name="Unos opisa predstave" incoming="_oViRwJnZEemqArbOhM8_WA" outgoing="_ot35QJnZEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ij97wJnZEemqArbOhM8_WA" name="Unos trajanja predstave" incoming="_ot35QJnZEemqArbOhM8_WA" outgoing="_3bs_oJnZEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_mR5mEJnZEemqArbOhM8_WA" name="" incoming="_OwbDUJnaEemqArbOhM8_WA _xCBO0JnbEemqArbOhM8_WA" outgoing="_oAaWUJnZEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qAFvEJnZEemqArbOhM8_WA" name="Provera da li korisnik zeli da unese jos rezisera" incoming="_4GV4EJnZEemqArbOhM8_WA" outgoing="_c4bf0JnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wBVf0JnZEemqArbOhM8_WA" name="Odabir rezisera" incoming="_bYPfcJnaEemqArbOhM8_WA" outgoing="_14eSUJnZEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_0NYpgJnZEemqArbOhM8_WA" name="" incoming="_14eSUJnZEemqArbOhM8_WA _3bs_oJnZEemqArbOhM8_WA" outgoing="_4GV4EJnZEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_9KfucJnZEemqArbOhM8_WA" name="" incoming="_f8vlYJnaEemqArbOhM8_WA _j7Af0JncEemqArbOhM8_WA" outgoing="_uQMc4JnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_Dc_AMJnaEemqArbOhM8_WA" name="Korisnikov izbor" incoming="_c4bf0JnaEemqArbOhM8_WA" outgoing="_bYPfcJnaEemqArbOhM8_WA _f8vlYJnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_IpjLsJnaEemqArbOhM8_WA" name="Provera da li je korisnik administrator" incoming="_nikjwJnZEemqArbOhM8_WA" outgoing="_OVk6YJnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_KjbecJnaEemqArbOhM8_WA" name="Da li je korisnik admin?" incoming="_OVk6YJnaEemqArbOhM8_WA" outgoing="_OwbDUJnaEemqArbOhM8_WA _Sy6BUJnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QeGtIJnaEemqArbOhM8_WA" name="Povratak na pocetnu stranicu" incoming="_Sy6BUJnaEemqArbOhM8_WA" outgoing="_WoLCsJnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_Vvw0AJnaEemqArbOhM8_WA" name="" incoming="_WoLCsJnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oSwOEJnaEemqArbOhM8_WA" name="Provera da li korisnik zeli da unese jos uloga" incoming="_uQMc4JnaEemqArbOhM8_WA" outgoing="_ur46YJnaEemqArbOhM8_WA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_rmhr8JnaEemqArbOhM8_WA" name="Korisnikov izbor" incoming="_ur46YJnaEemqArbOhM8_WA" outgoing="_CP4ecJnbEemqArbOhM8_WA _oyNfUJncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vV3rgJnaEemqArbOhM8_WA" name="Unos naziva uloge" incoming="_CP4ecJnbEemqArbOhM8_WA" outgoing="_CqGVQJnbEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xCryoJnaEemqArbOhM8_WA" name="Provera da li korisnik zeli da unese jos glumaca za ulogu" incoming="_DbxCwJnbEemqArbOhM8_WA" outgoing="_PCHlYJncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_5XwnMJnaEemqArbOhM8_WA" name="Korisnikov izbor" incoming="_PCHlYJncEemqArbOhM8_WA" outgoing="_PoHOYJncEemqArbOhM8_WA _j7Af0JncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_9xDisJnaEemqArbOhM8_WA" name="" incoming="_CqGVQJnbEemqArbOhM8_WA _W-vdsJncEemqArbOhM8_WA" outgoing="_DbxCwJnbEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Fak40JnbEemqArbOhM8_WA" name="Odabir glumca" incoming="_PoHOYJncEemqArbOhM8_WA" outgoing="_W-vdsJncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_or4qUJnbEemqArbOhM8_WA" name="Odabir cuvanja predstave" incoming="_oyNfUJncEemqArbOhM8_WA" outgoing="_EoLWEJncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qf6MsJnbEemqArbOhM8_WA" name="Provera validnosti podataka" incoming="_EoLWEJncEemqArbOhM8_WA" outgoing="_DEbEUJncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_tTNawJnbEemqArbOhM8_WA" name="Da li su podaci validni" incoming="_DEbEUJncEemqArbOhM8_WA" outgoing="_y29XMJnbEemqArbOhM8_WA __1C-QJnbEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_uqpu0JnbEemqArbOhM8_WA" name="Ispis greske" incoming="_y29XMJnbEemqArbOhM8_WA" outgoing="_xCBO0JnbEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0XTvoJnbEemqArbOhM8_WA" name="Ispis poruke o uspesnom dodavanju" incoming="__LSPkJnbEemqArbOhM8_WA" outgoing="_NK_rsJncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3X-rUJnbEemqArbOhM8_WA" name="Odabir zanra" incoming="_oAaWUJnZEemqArbOhM8_WA" outgoing="_6JfwsJnbEemqArbOhM8_WA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_-SPHsJnbEemqArbOhM8_WA" name="" incoming="_NK_rsJncEemqArbOhM8_WA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_IR3ZkJncEemqArbOhM8_WA" name="Cuvanje podataka u bazu" incoming="__1C-QJnbEemqArbOhM8_WA" outgoing="__LSPkJnbEemqArbOhM8_WA"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZnE4YJhcEemlQMYyhOIfKA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZnGtkJhcEemlQMYyhOIfKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
