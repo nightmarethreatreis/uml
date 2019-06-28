@@ -425,8 +425,14 @@ referentne cene karte i sedista</body>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIe7wJhiEemlQMYyhOIfKA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mIfi0JhiEemlQMYyhOIfKA" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_mIfi0ZhiEemlQMYyhOIfKA" name="karta" type="_TdZVoJhiEemlQMYyhOIfKA" association="_mIdtoJhiEemlQMYyhOIfKA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_mIgJ4JhiEemlQMYyhOIfKA" name="sediste" type="_u7H9cJhfEemlQMYyhOIfKA" association="_mIdtoJhiEemlQMYyhOIfKA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mIfi0ZhiEemlQMYyhOIfKA" name="karta" type="_TdZVoJhiEemlQMYyhOIfKA" association="_mIdtoJhiEemlQMYyhOIfKA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qJMAgJm0EemqArbOhM8_WA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qJSuMJm0EemqArbOhM8_WA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mIgJ4JhiEemlQMYyhOIfKA" name="sediste" type="_u7H9cJhfEemlQMYyhOIfKA" association="_mIdtoJhiEemlQMYyhOIfKA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EQeH4Jm0EemqArbOhM8_WA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ERHoIJm0EemqArbOhM8_WA" value="1"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_NNetwJjFEem7h6eMdyRh1w" name="Rezervacija">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_V3k5EJhiEemlQMYyhOIfKA" name="vremeRezervacije" visibility="private">
