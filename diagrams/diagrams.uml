@@ -10,13 +10,6 @@ postoji lista narednih izvodjenja&#xD;
 gde kupac moze da klikne da kartu &#xD;
 za neko od njih</body>
   </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_9VA-sJhgEemlQMYyhOIfKA">
-    <body>Work in progress...</body>
-  </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_BLwxUJhiEemlQMYyhOIfKA">
-    <body>Cena karte se racuna kao funkcija &#xD;
-referentne cene karte i sedista</body>
-  </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_hD4lcJpPEempW7uYl2gNCA">
     <body>Program koristi Dependency Injection pa &#xD;
 Controller-i imaju polje KorisnikLogic &#xD;
@@ -28,6 +21,10 @@ da se o ovome razmislja kao i dependency-ju,&#xD;
     <body>Na dijagramu su prikazani samo&#xD;
 dependecy-i vazni u nastavku kako ne&#xD;
 bi nastao totalni haos od broja strelica</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_twsekJq4Eem0udZ7TgoZxg">
+    <body>Cena se racuna kao funkcija referentne cene i sedista&#xD;
+</body>
   </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_tqltQGbIEemny-sirUFTxw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -273,6 +270,9 @@ bi nastao totalni haos od broja strelica</body>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_r2HU4JjOEem7h6eMdyRh1w" name="trajanje" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4FtZUJqyEem0udZ7TgoZxg" name="aktivna" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_bX7VgJhdEemlQMYyhOIfKA" name="DramskiRadnik">
@@ -918,6 +918,152 @@ odabira glumaca</body>
     <message xmi:type="uml:Message" xmi:id="_2bpzQJpaEemOVPtX9hv7-Q" name="showErrorMessage(greska.getMessage());"/>
     <message xmi:type="uml:Message" xmi:id="_s_cFkJpcEemOVPtX9hv7-Q" name="return" messageSort="reply" receiveEvent="_s_fI4JpcEemOVPtX9hv7-Q" sendEvent="_s_d6wJpcEemOVPtX9hv7-Q"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_psoosJq3Eem0udZ7TgoZxg" name="PredstavaLogic">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LtMHgpq5Eem0udZ7TgoZxg" name="predstavadatavalidator" type="_5kHCQJq4Eem0udZ7TgoZxg" association="_LtKSUJq5Eem0udZ7TgoZxg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LtMukJq5Eem0udZ7TgoZxg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LtNVoJq5Eem0udZ7TgoZxg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZmFxAZq5Eem0udZ7TgoZxg" name="predstavarepository" type="_P5fv4Jq5Eem0udZ7TgoZxg" association="_ZmEi4Jq5Eem0udZ7TgoZxg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZmFxApq5Eem0udZ7TgoZxg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZmGYEJq5Eem0udZ7TgoZxg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aSwpwpq5Eem0udZ7TgoZxg" name="ulogarepository" type="_RLgxYJq5Eem0udZ7TgoZxg" association="_aSvboJq5Eem0udZ7TgoZxg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aSxQ0Jq5Eem0udZ7TgoZxg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aSxQ0Zq5Eem0udZ7TgoZxg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xerBoJq3Eem0udZ7TgoZxg" name="addPredstava">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1dNTwJq3Eem0udZ7TgoZxg" name="naziv">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4dYgMJq3Eem0udZ7TgoZxg" name="trajanje">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7LH40Jq3Eem0udZ7TgoZxg" name="opis">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__q7E8Jq3Eem0udZ7TgoZxg" name="zanrovi" type="_EzlT8JhfEemlQMYyhOIfKA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CoykQJq4Eem0udZ7TgoZxg" name="reziseri" type="_zC2SsJhdEemlQMYyhOIfKA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ErDW8Jq4Eem0udZ7TgoZxg" name="uloge" type="_6LIkAJhdEemlQMYyhOIfKA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PyV0cJq4Eem0udZ7TgoZxg" name="HomeController">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PmHEYJq6Eem0udZ7TgoZxg" name="headToShowActiveShows"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R4BukJq4Eem0udZ7TgoZxg" name="ShowActiveShowsController">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SLa5wJq6Eem0udZ7TgoZxg" name="headToAddShowController"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UjZvsJq4Eem0udZ7TgoZxg" name="AddShowController">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TlENQJq6Eem0udZ7TgoZxg" name="handleAddition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_f3nkAJq6Eem0udZ7TgoZxg" name="dodajZanr">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tvlZYJq6Eem0udZ7TgoZxg" name="zanr" type="_EzlT8JhfEemlQMYyhOIfKA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hKResJq6Eem0udZ7TgoZxg" name="dodajUlogu">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sNzdkJq6Eem0udZ7TgoZxg" name="nazivUloge">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nPl3IJq6Eem0udZ7TgoZxg" name="dodajRezisera">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qAdcQJq6Eem0udZ7TgoZxg" name="reziser" type="_zC2SsJhdEemlQMYyhOIfKA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yJmGkJq6Eem0udZ7TgoZxg" name="dodajGlumcaUlozi">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1JVOIJq6Eem0udZ7TgoZxg" name="glumac" type="_z4aBsJhdEemlQMYyhOIfKA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4FxKEJq6Eem0udZ7TgoZxg" name="uloga" type="_6LIkAJhdEemlQMYyhOIfKA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IE8mwJq_Eem0udZ7TgoZxg" name="showErrorMessage">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QFU9sJq_Eem0udZ7TgoZxg" name="message">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K2-pgJq_Eem0udZ7TgoZxg" name="showSuccessMessage">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NMDqgJq_Eem0udZ7TgoZxg" name="message">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZYLtUJq4Eem0udZ7TgoZxg" memberEnd="_ZYWscJq4Eem0udZ7TgoZxg _ZYYhoJq4Eem0udZ7TgoZxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZYU3QJq4Eem0udZ7TgoZxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZYU3QZq4Eem0udZ7TgoZxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZYWscJq4Eem0udZ7TgoZxg" name="showactiveshowscontroller" type="_R4BukJq4Eem0udZ7TgoZxg" association="_ZYLtUJq4Eem0udZ7TgoZxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZYYhoJq4Eem0udZ7TgoZxg" name="screenmanager" type="_tNFBUJpOEempW7uYl2gNCA" association="_ZYLtUJq4Eem0udZ7TgoZxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aZup4Jq4Eem0udZ7TgoZxg" memberEnd="_aZv4Apq4Eem0udZ7TgoZxg _aZxGIJq4Eem0udZ7TgoZxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aZv4AJq4Eem0udZ7TgoZxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aZv4AZq4Eem0udZ7TgoZxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aZv4Apq4Eem0udZ7TgoZxg" name="homecontroller" type="_PyV0cJq4Eem0udZ7TgoZxg" association="_aZup4Jq4Eem0udZ7TgoZxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aZxGIJq4Eem0udZ7TgoZxg" name="screenmanager" type="_tNFBUJpOEempW7uYl2gNCA" association="_aZup4Jq4Eem0udZ7TgoZxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bKYDsJq4Eem0udZ7TgoZxg" memberEnd="_bKYqwpq4Eem0udZ7TgoZxg _bKZ44Jq4Eem0udZ7TgoZxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bKYqwJq4Eem0udZ7TgoZxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bKYqwZq4Eem0udZ7TgoZxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bKYqwpq4Eem0udZ7TgoZxg" name="addshowcontroller" type="_UjZvsJq4Eem0udZ7TgoZxg" association="_bKYDsJq4Eem0udZ7TgoZxg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bKZ44Jq4Eem0udZ7TgoZxg" name="screenmanager" type="_tNFBUJpOEempW7uYl2gNCA" association="_bKYDsJq4Eem0udZ7TgoZxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5kHCQJq4Eem0udZ7TgoZxg" name="PredstavaDataValidator">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6-MaoJq4Eem0udZ7TgoZxg" name="validatePredstava">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6-MaoZq4Eem0udZ7TgoZxg" name="naziv">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6-Maopq4Eem0udZ7TgoZxg" name="trajanje">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6-Mao5q4Eem0udZ7TgoZxg" name="opis">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6-MapJq4Eem0udZ7TgoZxg" name="zanrovi" type="_EzlT8JhfEemlQMYyhOIfKA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6-MapZq4Eem0udZ7TgoZxg" name="reziseri" type="_zC2SsJhdEemlQMYyhOIfKA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6-Mappq4Eem0udZ7TgoZxg" name="uloge" type="_6LIkAJhdEemlQMYyhOIfKA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_AogSEJq5Eem0udZ7TgoZxg" client="_5kHCQJq4Eem0udZ7TgoZxg" supplier="_BeWQMJpREempW7uYl2gNCA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LtKSUJq5Eem0udZ7TgoZxg" memberEnd="_LtMHgpq5Eem0udZ7TgoZxg _LtNVoZq5Eem0udZ7TgoZxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LtMHgJq5Eem0udZ7TgoZxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LtMHgZq5Eem0udZ7TgoZxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LtNVoZq5Eem0udZ7TgoZxg" name="predstavalogic" type="_psoosJq3Eem0udZ7TgoZxg" association="_LtKSUJq5Eem0udZ7TgoZxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_P5fv4Jq5Eem0udZ7TgoZxg" name="PredstavaRepository">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TyaiMJq5Eem0udZ7TgoZxg" name="save">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YQbloJq5Eem0udZ7TgoZxg" name="predstava" type="_V_cN4JhdEemlQMYyhOIfKA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RLgxYJq5Eem0udZ7TgoZxg" name="UlogaRepository">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_S0wAEJq5Eem0udZ7TgoZxg" name="save">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WWgPkJq5Eem0udZ7TgoZxg" name="uloga" type="_6LIkAJhdEemlQMYyhOIfKA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZmEi4Jq5Eem0udZ7TgoZxg" memberEnd="_ZmFxAZq5Eem0udZ7TgoZxg _ZmGYEZq5Eem0udZ7TgoZxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZmFJ8Jq5Eem0udZ7TgoZxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZmFxAJq5Eem0udZ7TgoZxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZmGYEZq5Eem0udZ7TgoZxg" name="predstavalogic" type="_psoosJq3Eem0udZ7TgoZxg" association="_ZmEi4Jq5Eem0udZ7TgoZxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aSvboJq5Eem0udZ7TgoZxg" memberEnd="_aSwpwpq5Eem0udZ7TgoZxg _aSxQ0pq5Eem0udZ7TgoZxg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aSwpwJq5Eem0udZ7TgoZxg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aSwpwZq5Eem0udZ7TgoZxg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aSxQ0pq5Eem0udZ7TgoZxg" name="predstavalogic" type="_psoosJq3Eem0udZ7TgoZxg" association="_aSvboJq5Eem0udZ7TgoZxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_h_r5MJq5Eem0udZ7TgoZxg" client="_RLgxYJq5Eem0udZ7TgoZxg" supplier="_6LIkAJhdEemlQMYyhOIfKA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_nI5OsJq5Eem0udZ7TgoZxg" client="_P5fv4Jq5Eem0udZ7TgoZxg" supplier="_V_cN4JhdEemlQMYyhOIfKA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_scTpEJq5Eem0udZ7TgoZxg" name="DramskiRadnikRepository">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-5ZPcJq5Eem0udZ7TgoZxg" name="getAllGlumac">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DCDt8Jq6Eem0udZ7TgoZxg" name="glumci" type="_z4aBsJhdEemlQMYyhOIfKA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t8x9UJq5Eem0udZ7TgoZxg" name="ZanrRepository">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3a6rsJq5Eem0udZ7TgoZxg" name="findAll">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6TgCYJq5Eem0udZ7TgoZxg" type="_EzlT8JhfEemlQMYyhOIfKA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_yttVsJq5Eem0udZ7TgoZxg" client="_scTpEJq5Eem0udZ7TgoZxg" supplier="_bX7VgJhdEemlQMYyhOIfKA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_1JI2UJq5Eem0udZ7TgoZxg" client="_t8x9UJq5Eem0udZ7TgoZxg" supplier="_EzlT8JhfEemlQMYyhOIfKA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_kjakwJq6Eem0udZ7TgoZxg" client="_psoosJq3Eem0udZ7TgoZxg" supplier="_V_cN4JhdEemlQMYyhOIfKA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6-Ok8Jq6Eem0udZ7TgoZxg" client="_psoosJq3Eem0udZ7TgoZxg" supplier="_6LIkAJhdEemlQMYyhOIfKA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_74ueUJq6Eem0udZ7TgoZxg" client="_psoosJq3Eem0udZ7TgoZxg" supplier="_EzlT8JhfEemlQMYyhOIfKA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_9hfL4Jq6Eem0udZ7TgoZxg" client="_psoosJq3Eem0udZ7TgoZxg" supplier="_zC2SsJhdEemlQMYyhOIfKA"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZnE4YJhcEemlQMYyhOIfKA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZnGtkJhcEemlQMYyhOIfKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
