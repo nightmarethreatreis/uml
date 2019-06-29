@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nightmaretheatredijagramisekvenci" version="4">
+  <OBJECT>
+    <ID name="nightmaretheatredijagramisekvenci" mc="Standard.Package" uid="34393a7b-47c2-4097-8daa-54b6b8c4a0dc"/>
+    <PID name="NightmareTheatreDijagramiSekvenci" mc="Standard.Project" uid="ffc09d39-6d2a-4ec3-ae6e-2cb2a4afbaaa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nightmaretheatredijagramisekvenci]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="12c1df25-988b-4eb7-9af7-bf01061e9e5a"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="b07ceab3-2fb0-45b3-bb54-0e49bfb4afde"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

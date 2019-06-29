@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NightmareTheatreDijagramiSekvenci" version="4">
+  <OBJECT>
+    <ID name="NightmareTheatreDijagramiSekvenci" mc="Standard.Project" uid="ffc09d39-6d2a-4ec3-ae6e-2cb2a4afbaaa"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[NightmareTheatreDijagramiSekvenci]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="nightmaretheatredijagramisekvenci" mc="Standard.Package" uid="34393a7b-47c2-4097-8daa-54b6b8c4a0dc"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="NightmareTheatreDijagramiSekvenci" mc="Infrastructure.DiagramSet" uid="c0da8b31-d6a2-4147-aef1-74f71483fca2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
