@@ -1,1 +1,5 @@
-#Sun Jun 30 00:56:54 CEST 2019
+#Sun Jun 30 21:26:26 CEST 2019
+org.modelio.diagram.editor.OpenedDiagrams3='Dodavanje predstave' {28c2bc8f-f650-4434-8f57-fdd748fdbd44} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Logika dodavanja predstave' {d653a603-7019-437d-908f-8a11ea4c8813} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Registracija' {61366ef5-3601-4a53-8b69-34e8fa898108} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Logika registracije' {c2adac23-e2a0-4f52-aca0-8202f04be912} Standard.SequenceDiagram
